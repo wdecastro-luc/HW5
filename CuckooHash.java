@@ -244,14 +244,10 @@ public class CuckooHash<K, V> {
      * @param value the value of the element to add
 	 */
 
- 	public void put(K key, V value) {
+    public void put(K key, V value) {
+        return;
+    }
 
-		// ADD YOUR CODE HERE - DO NOT FORGET TO ADD YOUR NAME AT TOP OF FILE.
-		// Also make sure you read this method's prologue above, it should help
-		// you. Especially the two HINTS in the prologue.
-
-		return;
-	}
 
 
 	/**
